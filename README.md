@@ -39,7 +39,7 @@ Once the application is running, it exposes several REST endpoints via `localhos
 You can send simple queries using the `/ask-ai` endpoint. Example:
 
 ```
-http://localhost:8080/ask-ai?prompt=how%20are%20you
+http://localhost:8080/ask-ai?prompt=what%20is%20springboot
 ```
 
 ### 🧭 Templated Prompts
@@ -47,7 +47,7 @@ http://localhost:8080/ask-ai?prompt=how%20are%20you
 The `/city-guide` endpoint uses predefined templates with parameters. Based on the values of `city` and `interest`, the application returns tourist recommendations:
 
 ```
-http://localhost:8080/city-guide?city=Prague&interest=history
+http://localhost:8080/city-guide?city=Delhi&interest=food
 ```
 
 ### 🖼️ Generating Images
@@ -55,7 +55,7 @@ http://localhost:8080/city-guide?city=Prague&interest=history
 Image generation is available at the `/generate-image` endpoint. You can pass a prompt describing the image you want to generate:
 
 ```
-http://localhost:8080/generate-image?prompt=cute%20cat
+http://localhost:8080/generate-image?prompt=French%20tourist
 ```
 
 ---
